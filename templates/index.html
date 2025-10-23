@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belmont Property Explorer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 900px; margin: auto; }
+    h1 { color: #2c3e50; }
+    #map { height: 400px; margin-top: 30px; border: 1px solid #ccc; }
+    canvas { margin-top: 30px; }
+    #stats { margin-top: 20px; font-size: 1.1em; }
+  </style>
+</head>
+<body>
+  <h1>🏡 Belmont Property Explorer</h1>
+  <div id="stats"></div>
+  <canvas id="priceChart"></canvas>
+  <div id="map"></div>
+  <script src="/static/dashboard.js"></script>
+</body>
+</html>
